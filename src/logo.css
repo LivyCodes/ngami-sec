@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #080c2a;
+}
+
+h1 {
+  font-family: "Domine", serif;
+  color: #ffffff;
+}

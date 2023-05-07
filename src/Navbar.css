@@ -1,0 +1,9 @@
+.nav-item {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.custom-li {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}

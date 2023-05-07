@@ -1,0 +1,33 @@
+.list-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.heros {
+  background-color: #080c2a;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.fa-custom {
+  color: #ffffff;
+}
+
+.footer-title {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 912px) {
+  .heros {
+    display: flex;
+  }
+
+  .heros h5 {
+    font-size: 15px;
+  }
+}
