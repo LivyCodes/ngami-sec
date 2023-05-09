@@ -83,7 +83,12 @@ function NavBar() {
                 </li>
                 <li>
                   <Link class="dropdown-item" to="/AdmissionCriteria">
-                    ADMISSION CRITERIA
+                    SCHOOL ACADEMIC POLICY
+                  </Link>
+                </li>
+                <li>
+                  <Link class="dropdown-item" to="/SchoolPrize">
+                    SCHOOL PRIZE & AWARDS
                   </Link>
                 </li>
                 <li>

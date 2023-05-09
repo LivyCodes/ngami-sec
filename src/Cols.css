@@ -19,13 +19,18 @@ h5 {
   padding: 10px 10px;
 }
 
+.values,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
 .readmore-link {
   padding: 10px 18px;
   background-color: #080c2a;
   text-decoration: none;
   color: #faebd7;
   border-radius: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Ysabeau", sans-serif;
 }
 
 .readmore-link:hover {

@@ -45,7 +45,7 @@ function CoreValues() {
         <li>Curriculum implementation</li>
         <li>Dissemination and implementation of education policies</li>
       </ol>
-      <p>
+      <p className="mottoP">
         We are guided by the school motto “Juhudi Ni Fanaka” in carrying out our
         functions and in upholding our values.
       </p>

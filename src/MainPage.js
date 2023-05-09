@@ -11,6 +11,7 @@ import CoreValues from "./CoreValues";
 import Policies from "./Policies";
 import AdmissionCriteria from "./AdmissionCriteria";
 import AdmissionOverview from "./AdmissionOverview";
+import SchoolPrize from "./SchoolPrize";
 import TermDates from "./TermDates";
 import FeePayment from "./FeePayment";
 import Lib from "./Lib";
@@ -47,6 +48,7 @@ function MainPage() {
                 path="/AdmissionOverview"
                 element={<AdmissionOverview />}
               />
+              <Route exact path="/SchoolPrize" element={<SchoolPrize />} />
               <Route exact path="/TermDates" element={<TermDates />} />
               <Route exact path="/FeePayment" element={<FeePayment />} />
               <Route exact path="/Lib" element={<Lib />} />

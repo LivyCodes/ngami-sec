@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Poppins&family=Ysabeau&display=swap");
 
-li {
+li,
+p {
   font-family: "Ysabeau", sans-serif;
 }
 

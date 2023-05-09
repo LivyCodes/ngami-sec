@@ -23,13 +23,13 @@ function Cols() {
             <h5>OUR CORE VALUES & OBJECTIVES</h5>
 
             <ul>
-              <li>Respect for individual differences</li>
-              <li>Integrity</li>
-              <li>Hardwork</li>
-              <li>Professionalism</li>
-              <li>Responsibility</li>
-              <li>Courtesy</li>
-              <li>Efficiency</li>
+              <li className="values">Respect for individual differences</li>
+              <li className="values">Integrity</li>
+              <li className="values">Hardwork</li>
+              <li className="values">Professionalism</li>
+              <li className="values">Responsibility</li>
+              <li className="values">Courtesy</li>
+              <li className="values">Efficiency</li>
             </ul>
             <Link
               to="/CoreValues"
