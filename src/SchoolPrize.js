@@ -1,10 +1,11 @@
 import React from "react";
+import "./SchoolPrize.css";
 
 function SchoolPrize() {
   return (
     <div>
       <h3>SCHOOL PRIZES & AWARDS CRITERIA </h3>
-      <table class="table table-hover">
+      <table class="table table-hover custom-table">
         <thead>
           <tr>
             <th scope="col">ITEM</th>

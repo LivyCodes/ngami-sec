@@ -1,9 +1,10 @@
 import React from "react";
+import "./Contact.css";
 
 function Contacts() {
   return (
     <div>
-      <div className="col-6">
+      <div className="col-6 custom-form">
         <h3 className="mt-1">Contact Us</h3>
         <div className="mb-3 ">
           <input
