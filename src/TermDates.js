@@ -3,7 +3,7 @@ import React from "react";
 function TermDates() {
   return (
     <div>
-      <h3>2023 Academic Calendar</h3>
+      <h3 className="text-center">2023 Academic Calendar</h3>
       <table class="table table-striped table-hover custom-table">
         <thead>
           <tr>
