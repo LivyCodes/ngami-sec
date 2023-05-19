@@ -36,7 +36,7 @@ function TermDates() {
             <th scope="row">Term 2</th>
             <td>8/05/2023</td>
             <td>11/08/2023</td>
-            <td>3 weeks</td>
+            <td>14 weeks</td>
           </tr>
           <tr>
             <th scope="row">Half-term Break</th>
