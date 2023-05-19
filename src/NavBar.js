@@ -134,6 +134,11 @@ function NavBar() {
                     BOARDING
                   </Link>
                 </li>
+                <li>
+                  <Link class="dropdown-item" to="/Infrastructure">
+                    YEARLY INFRASTRUCTURE IMPROVEMENT
+                  </Link>
+                </li>
               </ul>
             </li>
             <li class="nav-item">

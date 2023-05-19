@@ -18,6 +18,7 @@ import Lib from "./Lib";
 import SciLab from "./SciLab";
 import CompLab from "./CompLab";
 import Dorm from "./Dorm";
+import Infrastructure from "./Infrastructure";
 import Contacts from "./Contact";
 import Copyright from "./Copyright";
 import "./Mainpage.css";
@@ -55,6 +56,11 @@ function MainPage() {
               <Route exact path="/SciLab" element={<SciLab />} />
               <Route exact path="/CompLab" element={<CompLab />} />
               <Route exact path="/Dorm" element={<Dorm />} />
+              <Route
+                exact
+                path="/Infrastructure"
+                element={<Infrastructure />}
+              />
               <Route exact path="/Contact" element={<Contacts />} />
             </Routes>
           </div>
