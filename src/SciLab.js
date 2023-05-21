@@ -1,4 +1,6 @@
 import React from "react";
+import LabPrac from "./Images/labpracticals.jpg";
+import SciLabs from "./Images/sciencelabs.jpg";
 
 function SciLab() {
   return (
@@ -11,6 +13,60 @@ function SciLab() {
         physics lab, and biology lab are fully equipped to provide students with
         a comprehensive science education.
       </p>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src={SciLabs}
+              class="d-block w-100"
+              alt="science lab photos"
+              height={550}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">
+                Ngami Secondary School Biology/Chemistry Lab
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src={LabPrac}
+              class="d-block w-100"
+              alt="lab prac photos"
+              height={550}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">
+                Students undertaking a practical in the Chem Lab
+              </h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <h5>Chemistry Lab</h5>
       <p>
         The chemistry laboratory at Ngami Secondary School is a state-of-the-art
