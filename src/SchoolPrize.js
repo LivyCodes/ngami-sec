@@ -1,10 +1,74 @@
 import React from "react";
 import "./SchoolPrize.css";
+import PrizeGiving from "./Images/prizegiving.jpg";
+import PrizeGiving2 from "./Images/prizegiving2.jpg";
 
 function SchoolPrize() {
   return (
     <div>
       <h3>SCHOOL PRIZES & AWARDS CRITERIA </h3>
+      <p>
+        At Ngami Secondary School, prizes and awards are awarded in all forms to
+        the outstanding students and even faculty in both academic and
+        non-academic fields.
+      </p>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src={PrizeGiving}
+              class="d-block w-100"
+              alt="Prize giving photos"
+              height={600}
+              width={600}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">Prize Giving Award Ceremony</h5>
+              <p className="custom-p">
+                Chief Principal Mr Severine Tole awarding a top student in Form
+                1
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src={PrizeGiving2}
+              class="d-block w-100"
+              alt="Prize giving photos"
+              height={600}
+              width={600}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">Prize Giving Award Ceremony</h5>
+              <p className="custom-p">
+                Chief Principal Mr Severine Tole awarding a top student.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <table class="table table-hover custom-table">
         <thead>
           <tr>
