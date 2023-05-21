@@ -7,6 +7,12 @@ function CompLab() {
   return (
     <div>
       <h3>COMPUTER LABORATORY</h3>
+      <p>
+        Ngami Secondary School prides itself on providing quality education to
+        its students. One of the school's essential facilities is the computer
+        laboratory, which is equipped with the latest technology to enhance
+        students' learning experience.
+      </p>
       <div
         id="carouselExampleAutoplaying"
         class="carousel slide"
@@ -76,11 +82,6 @@ function CompLab() {
         </button>
       </div>
       <p>
-        Ngami Secondary School prides itself on providing quality education to
-        its students. One of the school's essential facilities is the computer
-        laboratory, which is equipped with the latest technology to enhance
-        students' learning experience.
-        <br />
         The computer laboratory at Ngami Secondary School is a modern facility
         that is designed to provide students with hands-on experiences that
         enable them to learn about various computer-related technologies. The
