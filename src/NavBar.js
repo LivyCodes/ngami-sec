@@ -142,6 +142,15 @@ function NavBar() {
               </ul>
             </li>
             <li class="nav-item">
+              <Link
+                class="nav-link me-2"
+                aria-current="page"
+                to="/Cocurricular"
+              >
+                COCURRICULAR ACTIVITIES
+              </Link>
+            </li>
+            <li class="nav-item">
               <Link class="nav-link me-2" aria-current="page" to="/Contact">
                 CONTACT US
               </Link>

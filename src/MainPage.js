@@ -19,6 +19,7 @@ import SciLab from "./SciLab";
 import CompLab from "./CompLab";
 import Dorm from "./Dorm";
 import Infrastructure from "./Infrastructure";
+import Cocurricular from "./Cocurricular";
 import Contacts from "./Contact";
 import Copyright from "./Copyright";
 import "./Mainpage.css";
@@ -61,6 +62,7 @@ function MainPage() {
                 path="/Infrastructure"
                 element={<Infrastructure />}
               />
+              <Route exact path="/Cocurricular" element={<Cocurricular />} />
               <Route exact path="/Contact" element={<Contacts />} />
             </Routes>
           </div>
