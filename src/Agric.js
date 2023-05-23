@@ -100,6 +100,7 @@ function Agric() {
         opt for agriculture as a subject actively participate in these projects,
         which are designed to provide them with practical experience in various
         aspects of farming and agricultural management. <br />
+        <br />
         One of the key agricultural projects carried out by students at Ngami
         Secondary School is crop cultivation. Under the guidance of experienced
         instructors, students learn the fundamentals of plant growth, soil
@@ -108,6 +109,7 @@ function Agric() {
         hands-on experiences allow students to understand the intricacies of
         crop production and gain insights into sustainable agricultural
         practices. <br />
+        <br />
         Livestock rearing is another crucial component of the agricultural
         projects at Ngami Secondary School. Students learn about different
         livestock species, their nutritional requirements, and breeding
@@ -117,12 +119,14 @@ function Agric() {
         understanding of the economic and environmental aspects of animal
         farming.
         <br />
+        <br />
         Ngami Secondary School also encourages students to engage in
         agribusiness projects. Students are exposed to the entrepreneurial
         aspects of agriculture, such as market analysis, cost management, and
         product promotion. They have the opportunity to develop and execute
         their own agribusiness plans, which helps them understand the commercial
         aspects of agriculture and nurtures their entrepreneurial spirit.
+        <br />
         <br />
         The agricultural projects at Ngami Secondary School have numerous
         benefits for students. Firstly, they provide practical experience and
@@ -133,7 +137,9 @@ function Agric() {
         projects instill important life skills such as teamwork,
         problem-solving, and critical thinking, which are applicable in various
         aspects of life beyond agriculture.
-        <br /> In conclusion, Ngami Secondary School is committed to providing a
+        <br />
+        <br />
+        In conclusion, Ngami Secondary School is committed to providing a
         comprehensive education that extends beyond textbooks and classrooms.
         The agricultural projects offered to students who choose agriculture as
         their subject of choice exemplify this commitment. These projects
