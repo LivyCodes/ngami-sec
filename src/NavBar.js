@@ -120,6 +120,11 @@ function NavBar() {
                   </Link>
                 </li>
                 <li>
+                  <Link class="dropdown-item" to="/Agric">
+                    AGRICULTURAL PROJECTS
+                  </Link>
+                </li>
+                <li>
                   <Link class="dropdown-item" to="/SciLab">
                     SCIENCE LABORATORIES
                   </Link>

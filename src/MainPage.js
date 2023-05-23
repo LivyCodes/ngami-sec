@@ -15,6 +15,7 @@ import SchoolPrize from "./SchoolPrize";
 import TermDates from "./TermDates";
 import FeePayment from "./FeePayment";
 import Lib from "./Lib";
+import Agric from "./Agric";
 import SciLab from "./SciLab";
 import CompLab from "./CompLab";
 import Dorm from "./Dorm";
@@ -54,6 +55,7 @@ function MainPage() {
               <Route exact path="/TermDates" element={<TermDates />} />
               <Route exact path="/FeePayment" element={<FeePayment />} />
               <Route exact path="/Lib" element={<Lib />} />
+              <Route exact path="/Agric" element={<Agric />} />
               <Route exact path="/SciLab" element={<SciLab />} />
               <Route exact path="/CompLab" element={<CompLab />} />
               <Route exact path="/Dorm" element={<Dorm />} />

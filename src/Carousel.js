@@ -5,6 +5,7 @@ import Schoolphoto from "./Images/frontphoto.jpg";
 import Seavuria from "./Images/seavuria.jpg";
 import MCAcheque from "./Images/mcacheque.jpg";
 import Muslims from "./Images/muslims.jpg";
+import HODs from "./Images/hods1.jpg";
 
 function Carousel() {
   return (
@@ -32,12 +33,27 @@ function Carousel() {
           </div>
           <div class="carousel-item">
             <img
+              src={HODs}
+              class="d-block w-100"
+              alt="Muslim student photos"
+              height={600}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">
+                School's Heads of Departments (HODs)
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
               src={Seavuria}
               class="d-block w-100"
               alt="M.F photos"
               height={600}
               width={550}
             />
+
             <div class="carousel-caption d-none d-md-block">
               <h5 className="custom-heading">
                 Seavuria, the school's main sponsor
