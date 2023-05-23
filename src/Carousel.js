@@ -2,9 +2,9 @@ import React from "react";
 import Cols from "./Cols";
 import "./Carousel.css";
 import Schoolphoto from "./Images/frontphoto.jpg";
-import CoCurricular from "./Images/cocurricular.jpg";
+import Seavuria from "./Images/seavuria.jpg";
+import MCAcheque from "./Images/mcacheque.jpg";
 import Muslims from "./Images/muslims.jpg";
-import Games from "./Images/games222.jpg";
 
 function Carousel() {
   return (
@@ -32,15 +32,30 @@ function Carousel() {
           </div>
           <div class="carousel-item">
             <img
-              src={CoCurricular}
+              src={Seavuria}
               class="d-block w-100"
               alt="M.F photos"
               height={600}
               width={550}
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5 className="custom-heading">Music Festivals Club</h5>
-              <p className="custom-p">Students from the Music Festivals Club</p>
+              <h5 className="custom-heading">
+                Seavuria, the school's main sponsor
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src={MCAcheque}
+              class="d-block w-100"
+              alt="Boys football photos"
+              height={600}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">
+                The MCA presenting a cheque to the school
+              </h5>
             </div>
           </div>
           <div class="carousel-item">
@@ -52,22 +67,9 @@ function Carousel() {
               width={550}
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5 className="custom-heading">Muslim Society</h5>
-              <p className="custom-p">
+              <h5 className="custom-heading">
                 Students of the School's Muslim Society
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Games}
-              class="d-block w-100"
-              alt="Boys football photos"
-              height={600}
-              width={550}
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5 className="custom-heading">Boys Football Team</h5>
+              </h5>
             </div>
           </div>
         </div>

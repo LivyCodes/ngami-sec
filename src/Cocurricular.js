@@ -1,4 +1,7 @@
 import React from "react";
+import Games from "./Images/games222.jpg";
+import CoCurricular from "./Images/cocurricular.jpg";
+import Volleyball from "./Images/volley.jpg";
 
 function Cocurricular() {
   return (
@@ -17,6 +20,68 @@ function Cocurricular() {
         Secondary School are encouraged to discover and nurture their talents,
         fostering holistic growth and personal development.
       </p>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src={Games}
+              class="d-block w-100"
+              alt="Boys football photos"
+              height={600}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">Boys Football Team</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src={Volleyball}
+              class="d-block w-100"
+              alt="Boys football photos"
+              height={600}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">Boys Volleyball Team</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src={CoCurricular}
+              class="d-block w-100"
+              alt="M.F photos"
+              height={600}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">Music Festivals Club</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <ol>
         <li>
           <h5>Basketball for boys</h5>
