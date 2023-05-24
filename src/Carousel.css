@@ -4,3 +4,6 @@ p {
 .welcome {
   font-weight: 550;
 }
+.head-custom {
+  text-decoration: underline;
+}

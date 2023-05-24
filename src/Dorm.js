@@ -1,5 +1,6 @@
 import React from "react";
 import "./Dorm.css";
+import DormPhoto from "./Images/dormitories.jpg";
 
 function Dorm() {
   return (
@@ -12,7 +13,46 @@ function Dorm() {
           School are designed to provide students with a comfortable and safe
           environment where they can live and study.
         </p>
-
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src={DormPhoto}
+                class="d-block w-100"
+                alt="Comps photos"
+                height={550}
+                width={550}
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 className="custom-heading">
+                  A dormitory in Ngami Secondary School
+                </h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <li>
           The boarding facilities are equipped with modern amenities, including
           dormitories, bathrooms, and common areas. The dormitories are designed

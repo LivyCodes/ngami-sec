@@ -56,7 +56,7 @@ function Carousel() {
 
             <div class="carousel-caption d-none d-md-block">
               <h5 className="custom-heading">
-                Seavuria, the school's main sponsor
+                Seavuria scholars for the year 2023
               </h5>
             </div>
           </div>
@@ -108,7 +108,7 @@ function Carousel() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <h3>Ngami Secondary School</h3>
+      <h3 className="mt-3 head-custom">Ngami Secondary School</h3>
       <p>
         Ngami Secondary School is a day/boarding, girls/boys' school that is
         currently offering the 8-4-4 curriculum which has been the Kenyan system
