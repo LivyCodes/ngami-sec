@@ -1,7 +1,5 @@
 import React from "react";
-import Comp1 from "./Images/comp1.jpg";
 import Comp2 from "./Images/comp2.jpg";
-import Comp3 from "./Images/comp3.jpg";
 
 function CompLab() {
   return (
@@ -24,34 +22,6 @@ function CompLab() {
               src={Comp2}
               class="d-block w-100"
               alt="Comps photos"
-              height={550}
-              width={550}
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5 className="custom-heading">
-                Ngami Secondary School Computer Lab
-              </h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Comp1}
-              class="d-block w-100"
-              alt="Computer lab photos"
-              height={550}
-              width={550}
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5 className="custom-heading">
-                Ngami Secondary School Computer Lab
-              </h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Comp3}
-              class="d-block w-100"
-              alt="Comp lab photos"
               height={550}
               width={550}
             />
