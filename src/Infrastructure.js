@@ -7,6 +7,7 @@ function Infrastructure() {
       <ul>
         <h5>By the end of 2023</h5>
         <li>Construction of a new boys boarding toilet</li>
+        <li>Construction of a new dormitory phase 1</li>
         <li>Fixing curtains in the dormitories</li>
         <li>Addition of drying lines within the dormitory area</li>
         <li>
@@ -42,7 +43,7 @@ function Infrastructure() {
         <li>Levelling of the school sports field</li>
 
         <h5>By the end of 2024</h5>
-        <li>Construction of a new boys' dormitory</li>
+        <li>Construction and completion of dormitory phase 2</li>
         <li>Establishment of more hand washing stations</li>
         <li>Purchase of a back-up generator</li>
         <li>Tiling of the already existing dormitories and classrooms</li>
