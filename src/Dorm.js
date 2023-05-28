@@ -1,6 +1,7 @@
 import React from "react";
 import "./Dorm.css";
 import DormPhoto from "./Images/dormitories.jpg";
+import GirlsDorm from "./Images/girlsdorm.jpg";
 
 function Dorm() {
   return (
@@ -28,12 +29,25 @@ function Dorm() {
                 width={550}
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5 className="custom-heading">
-                  A dormitory in Ngami Secondary School
-                </h5>
+                <h5 className="custom-heading">Boys' Dormitory</h5>
+              </div>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src={GirlsDorm}
+                  class="d-block w-100"
+                  alt="Comps photos"
+                  height={550}
+                  width={550}
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 className="custom-heading">Girls' Dormitory</h5>
+                </div>
               </div>
             </div>
           </div>
+
           <button
             class="carousel-control-prev"
             type="button"

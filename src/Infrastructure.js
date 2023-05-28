@@ -44,6 +44,7 @@ function Infrastructure() {
 
         <h5>By the end of 2024</h5>
         <li>Construction and completion of dormitory phase 2</li>
+        <li>Drilling of a borehole</li>
         <li>Establishment of more hand washing stations</li>
         <li>Purchase of a back-up generator</li>
         <li>Tiling of the already existing dormitories and classrooms</li>
@@ -57,7 +58,7 @@ function Infrastructure() {
         <li>Expansion of the laboratories</li>
 
         <h5>By the end of 2026</h5>
-        <li>Drilling of a borehole</li>
+
         <li>Introduction of horticultural farming</li>
         <li>Construction of administration block</li>
         <li>Establishment of a fully-fledged computer laboratory</li>

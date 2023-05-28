@@ -6,6 +6,7 @@ import Seavuria from "./Images/seavuria.jpg";
 import MCAcheque from "./Images/mcacheque.jpg";
 import Muslims from "./Images/muslims.jpg";
 import HODs from "./Images/hods1.jpg";
+import HillView from "./Images/hillview.jpg";
 
 function Carousel() {
   return (
@@ -85,6 +86,20 @@ function Carousel() {
             <div class="carousel-caption d-none d-md-block">
               <h5 className="custom-heading">
                 Students of the School's Muslim Society
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src={HillView}
+              class="d-block w-100"
+              alt="Muslim student photos"
+              height={600}
+              width={550}
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 className="custom-heading">
+                View of a hill from within the school environment
               </h5>
             </div>
           </div>

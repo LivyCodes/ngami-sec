@@ -22,7 +22,7 @@ function TermDates() {
           </tr>
           <tr>
             <th scope="row">Half-term Break</th>
-            <td>26/03/2023</td>
+            <td>27/03/2023</td>
             <td>9/04/2023</td>
             <td>3 days</td>
           </tr>
